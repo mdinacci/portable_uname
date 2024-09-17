@@ -1,0 +1,4 @@
+This is a drop-in replacement to `uname` that will always return `arm64` for `uname -m` no matter whether it's run on Linux (which normally return `aarch64`) or macOS (which returns `arm64`). I might add x86 support if anybody ask for it. 
+
+# Installation and Usage
+Put the `uname` python file somewhere the path and use it like you would normally use `uname`.
